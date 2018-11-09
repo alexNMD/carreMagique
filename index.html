@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script></script>
+    <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Carré Magique</title>
+</head>
+<body>
+    <h1 class="text-center">Carré Magique™</h1>
+    <div class="form text-center">
+        <div class="form-control">
+            <label for="n">Choisissez un nombre impair n</label><input id="n" type="text" name="n">
+        </div>
+    </div>
+
+    <div class="text-center">
+        <table id="carreMagique">
+        </table>
+    </div>
+    <div class="jSum">
+        <table id ="jSum">
+        </table>
+    </div>
+    <div class="iSum">
+        <table id ="iSum">
+        </table>
+    </div>
+    <p class="alert alert-success col-md-12 mt-2" id="carreGood">Bonne génération du carré !</p>
+    <p class="alert alert-danger col-md-12 mt-2" id="carreFalse">Mauvaise génération du carré !</p>
+    <p class="alert alert-danger col-md-12 mt-2" id="nbrPaire">Rentrez un nombre impaire !</p>
+    <button id="btnCarre" class="btn btn-primary text-center">Construire le carré</button>
+    <button id="btnVerif" class="btn btn-success text-center">Vérification</button>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./vendors/bootstrap/js/bootstrap.js"></script>
+<script src="./script.js"></script>
+</html>
